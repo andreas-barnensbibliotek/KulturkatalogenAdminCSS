@@ -7,22 +7,22 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 2 | Starter</title>
+  <title>Kulturkatalogen Väst</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
-  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
         page. However, you can choose any other skin. Make sure you
         apply the skin class to the body tag so the changes take effect.
   -->
-  <link rel="stylesheet" href="dist/css/skins/skin-black.css">
+  <link rel="stylesheet" href="../../dist/css/skins/skin-black.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -60,9 +60,9 @@ desired effect
     <!-- Logo -->
     <a href="index2.html" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>A</b>LT</span>
+      <span class="logo-mini"><img src="../../dist/img/kulturkatalogen/kulturkatalogMinilogo.png" /></span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Admin</b>LTE</span>
+      <span class="logo-lg"><img src="../../dist/img/kulturkatalogen/kulturkatalogen250.png" /></span>
     </a>
 
     <!-- Header Navbar -->
@@ -74,114 +74,59 @@ desired effect
       <!-- Navbar Right Menu -->
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
-          <!-- Messages: style can be found in dropdown.less-->
-          <li class="dropdown messages-menu">
-            <!-- Menu toggle button -->
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <i class="fa fa-envelope-o"></i>
-              <span class="label label-success">4</span>
-            </a>
-            <ul class="dropdown-menu">
-              <li class="header">You have 4 messages</li>
-              <li>
-                <!-- inner menu: contains the messages -->
-                <ul class="menu">
-                  <li><!-- start message -->
-                    <a href="#">
-                      <div class="pull-left">
-                        <!-- User Image -->
-                        <img src="dist/img/alf-aj.jpg" class="img-circle" alt="User Image">
-                      </div>
-                      <!-- Message title and timestamp -->
-                      <h4>
-                        Support Team
-                        <small><i class="fa fa-clock-o"></i> 5 mins</small>
-                      </h4>
-                      <!-- The message -->
-                      <p>Why not buy a new awesome theme?</p>
-                    </a>
-                  </li>
-                  <!-- end message -->
+          
+            <li class="dropdown tasks-menu">
+                <!-- Menu Toggle Button -->
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <i class="fa fa-flag-o"></i>
+                    <span class="label label-danger">9</span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li class="header">Du har 9 nya ansökningar</li>
+                    
+                    <li class="footer">
+                        <a href="nyaansokningar.html">Gå till nya ansökningar</a>
+                    </li>
                 </ul>
-                <!-- /.menu -->
-              </li>
-              <li class="footer"><a href="#">See All Messages</a></li>
-            </ul>
-          </li>
-          <!-- /.messages-menu -->
-
+            </li>
           <!-- Notifications Menu -->
           <li class="dropdown notifications-menu">
             <!-- Menu toggle button -->
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <i class="fa fa-bell-o"></i>
-              <span class="label label-warning">10</span>
+              <span class="label label-warning">1</span>
             </a>
             <ul class="dropdown-menu">
-              <li class="header">You have 10 notifications</li>
+              <li class="header">Du har 1 Meddelanden</li>
               <li>
                 <!-- Inner Menu: contains the notifications -->
                 <ul class="menu">
                   <li><!-- start notification -->
                     <a href="#">
-                      <i class="fa fa-users text-aqua"></i> 5 new members joined today
+                        <i class="fa fa-info-circle" aria-hidden="true"></i> Glöm inte att databasen töms 17-01-01!
                     </a>
                   </li>
                   <!-- end notification -->
                 </ul>
               </li>
-              <li class="footer"><a href="#">View all</a></li>
+              <li class="footer"><a href="#">Se alla meddelanden</a></li>
             </ul>
           </li>
           <!-- Tasks Menu -->
-          <li class="dropdown tasks-menu">
-            <!-- Menu Toggle Button -->
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <i class="fa fa-flag-o"></i>
-              <span class="label label-danger">9</span>
-            </a>
-            <ul class="dropdown-menu">
-              <li class="header">You have 9 tasks</li>
-              <li>
-                <!-- Inner menu: contains the tasks -->
-                <ul class="menu">
-                  <li><!-- Task item -->
-                    <a href="#">
-                      <!-- Task title and progress text -->
-                      <h3>
-                        Design some buttons
-                        <small class="pull-right">20%</small>
-                      </h3>
-                      <!-- The progress bar -->
-                      <div class="progress xs">
-                        <!-- Change the css width attribute to simulate progress -->
-                        <div class="progress-bar progress-bar-aqua" style="width: 20%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                          <span class="sr-only">20% Complete</span>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <!-- end task item -->
-                </ul>
-              </li>
-              <li class="footer">
-                <a href="#">View all tasks</a>
-              </li>
-            </ul>
-          </li>
+         
           <!-- User Account Menu -->
           <li class="dropdown user user-menu">
             <!-- Menu Toggle Button -->
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <!-- The user image in the navbar-->
-              <img src="dist/img/alf-aj.jpg" class="user-image" alt="User Image">
+              <img src="../../dist/img/alf-aj.jpg" class="user-image" alt="User Image">
               <!-- hidden-xs hides the username on small devices so only the image appears. -->
               <span class="hidden-xs">Andreas Josefsson</span>
             </a>
             <ul class="dropdown-menu">
               <!-- The user image in the menu -->
               <li class="user-header">
-                <img src="dist/img/alf-aj.jpg" class="img-circle" alt="User Image">
+                <img src="../../dist/img/alf-aj.jpg" class="img-circle" alt="User Image">
 
                 <p>
                   Andreas Josefsson - Web Developer
@@ -231,7 +176,7 @@ desired effect
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="dist/img/alf-aj.jpg" class="img-circle" alt="User Image">
+          <img src="../../dist/img/alf-aj.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
           <p>Andreas Josefsson</p>
@@ -258,6 +203,7 @@ desired effect
             <li><a href="#">Roller</a></li>
           </ul>
         </li>
+        <li><a href="#"><i class="fa fa-folder-open-o" aria-hidden="true"></i> <span>Diarie/ Logg</span></a></li>
       </ul>
       <!-- /.sidebar-menu -->
     </section>
@@ -292,17 +238,17 @@ desired effect
                             </div>
                             <div class="box-body no-padding">
                                 <ul class="nav nav-pills nav-stacked">
-                                    <li class="active">
-                                        <a href="pages/ansokningar/nyaansokningar.html">
+                                    <li>
+                                        <a href="nyaansokningar.html">
                                             <i class="fa fa-inbox"></i> Nya ansökningar
                                             <span class="label label-primary pull-right">12</span>
                                         </a>
+                                    </li>                                   
+                                    <li><a href="godkanda.html"><i class="fa fa-file-text-o"></i> Godkända <span class="label label-success pull-right">23</span></a></li>
+                                    <li class="active">
+                                        <a href="nekade.html"><i class="fa fa-file-archive-o" aria-hidden="true"></i> Nekade <span class="label label-danger pull-right">65</span></a>
                                     </li>
-                                    <li><a href="pages/ansokningar/godkanda.html"><i class="fa fa-file-text-o"></i> Godkända <span class="label label-success pull-right">23</span></a></li>
-                                    <li>
-                                        <a href="pages/ansokningar/nekade.html"><i class="fa fa-file-archive-o" aria-hidden="true"></i> Nekade <span class="label label-danger pull-right">65</span></a>
-                                    </li>
-                                    <li><a href="pages/ansokningar/arkiv.html"><i class="fa fa-lock" aria-hidden="true"></i> Arkiv</a></li>
+                                    <li><a href="arkiv.html"><i class="fa fa-lock" aria-hidden="true"></i> Arkiv</a></li>
                                 </ul>
                             </div>
                             <!-- /.box-body -->
@@ -313,11 +259,11 @@ desired effect
                 <!-- /.col -->
                 <div class="col-md-9">
                     <div class="box box-primary">
-                        <div class="box-header with-border">
-                            <h3 class="box-title">Nya ansökningar</h3>
+                        <div class="box-header with-border label-danger">
+                            <h3 class="box-title">Nekade</h3>
                             <div class="box-tools pull-right">
                                 <div class="has-feedback">
-                                    <input type="text" class="form-control input-sm" placeholder="Sök i Ny ansökningar">
+                                    <input type="text" class="form-control input-sm" placeholder="Sök i Nekade">
                                     <span class="glyphicon glyphicon-search form-control-feedback"></span>
                                 </div>
                             </div>
@@ -350,9 +296,17 @@ desired effect
                             <div class="table-responsive mailbox-messages">
                                 <table class="table table-hover table-striped">
                                     <tbody>
+                                        <tr class="tableheader">
+                                            <td></td>
+                                            <td></td>
+                                            <td><a href="#">Namn <i class="fa fa-caret-down" aria-hidden="true"></i></a></td>
+                                            <td><a href="#">Ämne <i class="fa fa-caret-up" aria-hidden="true"></i></a></td>
+                                            <td><a href="#">Datum</a></td>
+                                            <td></td>
+                                        </tr>        
                                         <tr>
                                             <td><input type="checkbox"></td>
-                                            <td class="mailbox-star"><a href="#"><i class="fa fa-star text-yellow"></i></a></td>
+                                            <td class="mailbox-star"><a href="#"><i class="fa fa-exclamation text-red" aria-hidden="true"></i></a></td>
                                             <td class="mailbox-name"><a href="read-mail.html">Andreas Josefsson</a></td>
                                             <td class="mailbox-subject">
                                                 Skolbio förskolan: <b>Mustang</b>
@@ -362,7 +316,7 @@ desired effect
                                         </tr>
                                         <tr>
                                             <td><input type="checkbox"></td>
-                                            <td class="mailbox-star"><a href="#"><i class="fa fa-star-o text-yellow"></i></a></td>
+                                            <td class="mailbox-star"><a href="#"><i class="fa fa-exclamation text-red" aria-hidden="true"></i></a></td>
                                             <td class="mailbox-name"><a href="read-mail.html">Andreas Josefsson</a></td>
                                             <td class="mailbox-subject">
                                                 Skolbio förskolan:<b>Tigrar och tatueringar</b>
@@ -372,7 +326,7 @@ desired effect
                                         </tr>
                                         <tr>
                                             <td><input type="checkbox"></td>
-                                            <td class="mailbox-star"><a href="#"><i class="fa fa-star-o text-yellow"></i></a></td>
+                                            <td class="mailbox-star"><a href="#"><i class="fa fa-exclamation text-red" aria-hidden="true"></i></a></td>
                                             <td class="mailbox-name"><a href="read-mail.html">Andreas Josefsson</a></td>
                                             <td class="mailbox-subject">
                                                 Skapa film & rörlig bild
@@ -515,11 +469,11 @@ desired effect
 <!-- REQUIRED JS SCRIPTS -->
 
 <!-- jQuery 2.2.3 -->
-<script src="plugins/jQuery/jquery-2.2.3.min.js"></script>
+<script src="../../plugins/jQuery/jquery-2.2.3.min.js"></script>
 <!-- Bootstrap 3.3.6 -->
-<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="../../bootstrap/js/bootstrap.min.js"></script>
 <!-- AdminLTE App -->
-<script src="dist/js/app.min.js"></script>
+<script src="../../dist/js/app.min.js"></script>
 
 <!-- Optionally, you can add Slimscroll and FastClick plugins.
      Both of these plugins are recommended to enhance the
