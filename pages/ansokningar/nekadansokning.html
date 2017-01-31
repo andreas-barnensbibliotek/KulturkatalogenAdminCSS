@@ -90,7 +90,7 @@ desired effect
                     <a href="#">
                       <div class="pull-left">
                         <!-- User Image -->
-                        <img src="../../dist/img/alf-aj.jpg" class="img-circle" alt="User Image">
+                        <img src="../../../../dist/img/alf-aj.jpg" class="img-circle" alt="User Image">
                       </div>
                       <!-- Message title and timestamp -->
                       <h4>
@@ -241,16 +241,16 @@ desired effect
       </div>
               
 
-        <!-- Sidebar Menu -->
-        <ul class="sidebar-menu">
-            <li class="header">Meny</li>
-            <li><a href="../kulturkatalogenGlobal/userstart.html"><i class="fa fa-home" aria-hidden="true"></i> <span>Start</span></a></li>
+      <!-- Sidebar Menu -->
+      <ul class="sidebar-menu">
+        <li class="header">Meny</li>
+        <li><a href="../kulturkatalogenGlobal/userstart.html"><i class="fa fa-home" aria-hidden="true"></i> <span>Start</span></a></li>
 
-            <!-- Optionally, you can add icons to the links -->
-            <li class="active"><a href="../ansokningar/nyaansokningar.html"><i class="fa fa-users" aria-hidden="true"></i> <span>Ansökningar</span></a></li>
-            <li><a href="../kulturkatalogenGlobal/diarie.html"><i class="fa fa-folder-open-o" aria-hidden="true"></i> <span>Diarie/ Logg</span></a></li>
-        </ul>
-        <!-- /.sidebar-menu -->
+        <!-- Optionally, you can add icons to the links -->
+        <li class="active"><a href="../ansokningar/nyaansokningar.html"><i class="fa fa-users" aria-hidden="true"></i> <span>Ansökningar</span></a></li>        
+        <li><a href="../kulturkatalogenGlobal/diarie.html"><i class="fa fa-folder-open-o" aria-hidden="true"></i> <span>Diarie/ Logg</span></a></li>
+      </ul>
+      <!-- /.sidebar-menu -->
     </section>
     <!-- /.sidebar -->
   </aside>
@@ -260,16 +260,18 @@ desired effect
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>
-                Ansökningar                
+                Hantera ansökning
             </h1>
             <ol class="breadcrumb">
-                <li><a href="#"><i class="fa fa-dashboard"></i> Start</a></li>
-                <li class="active">Ansökningar</li>
+                <li><a href="#"><i class="fa fa-dashboard"></i> Ansökningar</a></li>
+                <li> Nya ansökningar</li>
+                <li class="active"> Hantera ansökning</li>
             </ol>
         </section>
         <!-- Main content -->
         <section class="content">
             <div class="row">
+                <!--.col -->
                 <div class="col-md-3">
                     <div class="box box-primary">
                         <div class="box box-solid ">
@@ -289,130 +291,152 @@ desired effect
                                             <span class="label label-primary pull-right">12</span>
                                         </a>
                                     </li>
-                                    <li><a href="godkanda.html"><i class="fa fa-file-text-o"></i> Godkända <span class="label label-success pull-right">23</span></a></li>
+                                    <li class="active"><a href="godkanda.html"><i class="fa fa-file-text-o"></i> Godkända <span class="label label-success pull-right">23</span></a></li>
                                     <li>
                                         <a href="nekade.html"><i class="fa fa-file-archive-o" aria-hidden="true"></i> Nekade <span class="label label-danger pull-right">65</span></a>
                                     </li>
-                                    <li class="active"><a href="arkiv.html"><i class="fa fa-lock" aria-hidden="true"></i> Arkiv</a></li>
+                                    <li><a href="arkiv.html"><i class="fa fa-lock" aria-hidden="true"></i> Arkiv</a></li>
                                 </ul>
                             </div>
                             <!-- /.box-body -->
                         </div>
-                        
+
                     </div>
                 </div>
                 <!-- /.col -->
                 <div class="col-md-9">
                     <div class="box box-primary">
-                        <div class="box-header with-border">
-                            <h3 class="box-title">Arkiv</h3>
-                            <div class="box-tools pull-right">
-                                <div class="has-feedback">
-                                    <input type="text" class="form-control input-sm" placeholder="Sök i Arkiv">
-                                    <span class="glyphicon glyphicon-search form-control-feedback"></span>
-                                </div>
-                            </div>
-                            <!-- /.box-tools -->
+                        <div class="box-header with-border label-danger">
+                            <h3 class="box-title">Hantera ansökning</h3>
+                            
                         </div>
                         <!-- /.box-header -->
                         <div class="box-body no-padding">
-                            <div class="mailbox-controls">
-                                <!-- Check all button -->
-                                <button type="button" class="btn btn-default btn-sm checkbox-toggle" title="Markera alla">
-                                    <i class="fa fa-square-o"></i>
-                                </button>
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-default btn-sm" title="Godkänn" ><i class="fa fa-check" aria-hidden="true"></i></button>
-                                    <button type="button" class="btn btn-default btn-sm" title="Neka"><i class="fa fa-times" aria-hidden="true"></i></button>
-                                </div>
-                                <!-- /.btn-group -->
-                                <button type="button" class="btn btn-default btn-sm" title="Uppdatera"><i class="fa fa-refresh"></i></button>
-                                <div class="pull-right">
-                                    1-50/200
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-left"></i></button>
-                                        <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-right"></i></button>
-                                    </div>
-                                    <!-- /.btn-group -->
-                                </div>
-                                <!-- /.pull-right -->
+                            <div class="mailbox-read-info">
+                                <h3>Skolbio förskolan: <b>Mustang</b></h3>
+                                <h5>
+                                    Från: Andreas josefsson
+                                    <span class="mailbox-read-time pull-right">15 Jan. 2017 11:03 PM</span>
+                                </h5>
                             </div>
-                            <div class="table-responsive mailbox-messages">
-                                <table class="table table-hover table-striped">
-                                    <tbody>
-                                        <tr class="tableheader">
-                                            <td></td>
-                                            <td></td>
-                                            <td><a href="#">Utövare <i class="fa fa-caret-down" aria-hidden="true"></i></a></td>
-                                            <td><a href="#">Rubrik<i class="fa fa-caret-up" aria-hidden="true"></i></a></td>
-                                            <td><a href="#">Datum</a></td>
-                                            <td></td>
-                                        </tr>        
-                                        <tr>
-                                            <td><input type="checkbox"></td>
-                                            <td class="mailbox-star"><a href="#"><i class="fa fa-star text-yellow"></i></a></td>
-                                            <td class="mailbox-name"><a href="read-mail.html">Andreas Josefsson</a></td>
-                                            <td class="mailbox-subject">
-                                                Skolbio förskolan: <b>Mustang</b>
-                                            </td>
-                                            <td class="mailbox-date">2017-01-14</td>
-                                            <td class="mailbox-attachment"><i class="fa fa-paperclip"></i></td>
-                                           
-                                        </tr>
-                                        <tr>
-                                            <td><input type="checkbox"></td>
-                                            <td class="mailbox-star"><a href="#"><i class="fa fa-star-o text-yellow"></i></a></td>
-                                            <td class="mailbox-name"><a href="read-mail.html">Andreas Josefsson</a></td>
-                                            <td class="mailbox-subject">
-                                                Skolbio förskolan:<b>Tigrar och tatueringar</b>
-                                            </td>
-                                            <td class="mailbox-date">2017-01-14</td>
-                                            <td class="mailbox-attachment"><i class="fa fa-paperclip"></i></td>
-                                            
-                                        </tr>
-                                        <tr>
-                                            <td><input type="checkbox"></td>
-                                            <td class="mailbox-star"><a href="#"><i class="fa fa-star-o text-yellow"></i></a></td>
-                                            <td class="mailbox-name"><a href="read-mail.html">Andreas Josefsson</a></td>
-                                            <td class="mailbox-subject">
-                                                Skapa film & rörlig bild
-                                            </td>
-                                            <td class="mailbox-date">2017-01-14</td>
-                                            <td class="mailbox-attachment"></td>
-                                            
-                                        </tr>
-                                        
-                                    </tbody>
-                                </table>
-                                <!-- /.table -->
+                            <!-- /.mailbox-read-info -->
+                            <div class="mailbox-controls with-border text-right">                                
+                                <!-- /.btn-group -->                                
+                                <button type="button" class="btn btn-default" data-toggle="tooltip" title="Print">                                        
+                                        <i class="fa fa-print"></i> Skriv ut
+                                </button>                                
                             </div>
-                            <!-- /.mail-box-messages -->
+                            <!-- /.mailbox-controls -->
+                            <div class="mailbox-read-message">                                                                                              
+                                <h3>Skolbio förskolan: Mustang</h3>
+                                <p>                                    
+                                    Rek för åk 7 – gymnasiet (107 minuter)
+                                </p><p>    Fem föräldralösa tonårssystrar bor i en liten by . En dag stojar de med killarna på väg hem från skolan, en oskyldig lek som andra tolkar som osedlighet. Ryktet sprids snabbt och mormor blir orolig för att deras värde på äktenskapsmarknaden. Historien växer till oanade proportioner och snart börjar systrarnas frihet kringskäras allt mer. Deras hem blir ett fängelse, men upproret bubblar under ytan. Filmen tar upp unga kvinnors rätt att bestämma över sina liv, kroppar och sin sexualitet.
+                                </p><p>
+                                Trailer: https://www.youtube.com/watch?v=rU9JAN8LtIk
+                                </p><p>
+                                Filmhandledning: http://www.filminstitutet.se/sv/fa-kunskap-om-film/film-i-skolan/filmhan...
+                                </p><p>
+                                Bokas av Scanbox; clasg@scanbox.com
+                                </p> 
+                                <hr />                               
+                                <h3>Fakta</h3>
+                                <p>  
+                                Arrangörsstöd:Arrangören betalar 50%                                
+                                </p><p>
+                                    Lärarhandledning ingår: Nej
+                                </p><p>                               
+                                    Kontaktperson:
+                                    Pia-Marie Wehrling<br />
+                                    Telefonnummer:
+                                    0313335135<br />
+                                    Adress:
+                                    Rosenlundsgatan 4<br />
+                                    Postnummer:
+                                    41120<br />
+                                    Ort:
+                                    Göteborg<br />
+                                    E-post:
+                                    pia-mari.wehrling@kulturivast.se<br />
+                                <p>
+                        </div>
+                            <!-- /.mailbox-read-message -->
                         </div>
                         <!-- /.box-body -->
-                        <div class="box-footer no-padding">
-                            <div class="mailbox-controls">
-                                <!-- Check all button -->
-                                <button type="button" class="btn btn-default btn-sm checkbox-toggle">
-                                    <i class="fa fa-square-o"></i>
-                                </button>
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-default btn-sm"><i class="fa fa-check" aria-hidden="true"></i></button>
-                                    <button type="button" class="btn btn-default btn-sm"><i class="fa fa-times" aria-hidden="true"></i></button>
-
-                                </div>
-                                <!-- /.btn-group -->
-                                <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i></button>
-                                <div class="pull-right">
-                                    1-50/200
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-left"></i></button>
-                                        <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-right"></i></button>
+                        <div class="box-footer">
+                            <ul class="mailbox-attachments clearfix">
+                                <li>
+                                    <span class="mailbox-attachment-icon has-img"><img src="../../dist/img/kulturkatalogen/mustang_h.jpg" /></span>
+                                    <div class="mailbox-attachment-info">
+                                        <a href="#" class="mailbox-attachment-name"><i class="fa fa-camera"></i> mustang_h.jpg</a>
+                                        <span class="mailbox-attachment-size">
+                                            1.9 MB
+                                            <a href="#" class="btn btn-default btn-xs pull-right"><i class="fa fa-cloud-download"></i></a>
+                                        </span>
                                     </div>
-                                    <!-- /.btn-group -->
+                                </li>
+                                <li>
+                                    <span class="mailbox-attachment-icon has-img">
+
+                                        <img src="../../dist/img/kulturkatalogen/Youtube.jpg" />
+                                    </span>
+                                    <div class="mailbox-attachment-info">
+                                        <a href="#" class="mailbox-attachment-name"><i class="fa fa-camera"></i>watch?v=rU9JAN8LtIk</a>
+                                        <span class="mailbox-attachment-size">
+                                            3:03 min
+                                            <a href="#" class="btn btn-default btn-xs pull-right"><i class="fa fa-cloud-download"></i></a>
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>                        
+                        <!-- /.box-footer -->
+                        <div class="box-footer">
+                            
+                           
+                           
+                                <div class="box-header">
+                                    <h3 class="box-title">Motivering/ logg </h3>
+                                    
+                                        
+                                            <div class="btn-group pull-right">
+                                                <button type="button" class="btn btn-default" title="Ändra"><i class="fa fa-check" aria-hidden="true"></i>Ändra</button>
+                                                <button type="button" class="btn btn-default" title="Ta bort"><i class="fa fa-times" aria-hidden="true"></i> Ta bort</button>
+
+                                            </div>
+                                    
                                 </div>
-                                <!-- /.pull-right -->
-                            </div>
+                                <!-- /.box-header -->
+                                <div class="box-body table-responsive no-padding">
+                                    <table class="table table-hover">
+                                        <tr>                                           
+                                            <th>Datum</th>
+                                            <th>Status</th>
+                                            <th>Motivering</th>
+                                        </tr>
+                                        <tr>                                            
+                                            <td>2017-01-26</td>
+                                            <td><span class="label label-danger">Nekad</span></td>
+                                            <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                                        </tr>                                        
+                                        <tr>                                           
+                                            <td>2017-01-16</td>
+                                            <td><span class="label label-warning">Avvaktar</span></td>
+                                            <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                                        </tr>
+                                        <tr>                                            
+                                            <td>2017-01-02</td>
+                                            <td><span class="label label-primary">Inkommen</span></td>
+                                            <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <!-- /.box-body -->
+                           
+                            <!-- /.box -->
                         </div>
+                        <!-- /.box-footer -->
+                       
                     </div>
                     <!-- /. box -->
                 </div>
@@ -488,7 +512,7 @@ desired effect
 <!-- REQUIRED JS SCRIPTS -->
 
 <!-- jQuery 2.2.3 -->
-<script src="../../plugins/jQuery/jquery-2.2.3.min.js"></script>
+<script src="../../../../plugins/jQuery/jquery-2.2.3.min.js"></script>
 <!-- Bootstrap 3.3.6 -->
 <script src="../../bootstrap/js/bootstrap.min.js"></script>
 <!-- AdminLTE App -->
