@@ -310,25 +310,24 @@ desired effect
                         <div class="box-header with-border label-primary ">
                             <h3 class="box-title">Nya ansökningar</h3>
                             <div class="box-tools pull-right">
-                                <div class="input-group input-group-sm" style="width: 150px;">
-                                    <input type="text" name="table_search" class="form-control pull-right" placeholder="Sök i Diarie/ Logg">
-                                    <div class="input-group-btn">
-                                        <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
-                                    </div>
+                                <div class="has-feedback">
+                                    <input type="text" class="form-control input-sm" placeholder="Sök i Ny ansökningar">
+                                    <span class="glyphicon glyphicon-search form-control-feedback"></span>
                                 </div>
                             </div>
                             <!-- /.box-tools -->
                         </div>
                         <!-- /.box-header -->
                         <div class="box-body no-padding">
-                            <div class="mailbox-controls">                                
+                            <div class="mailbox-controls">
                                 <!-- Check all button -->
                                 <button type="button" class="btn btn-default btn-sm checkbox-toggle" title="Markera alla">
                                     <i class="fa fa-square-o"></i>
                                 </button>
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-default btn-sm" title="Ta bort"><i class="fa fa-times" aria-hidden="true"></i></button>
-
+                                    <button type="button" class="btn btn-default btn-sm" title="Godkänn" ><i class="fa fa-check" aria-hidden="true"></i></button>
+                                    <button type="button" class="btn btn-default btn-sm" title="Neka"><i class="fa fa-times" aria-hidden="true"></i></button>
+                                    
                                 </div>
                                 <!-- /.btn-group -->
                                 <button type="button" class="btn btn-default btn-sm" title="Uppdatera"><i class="fa fa-refresh"></i></button>
@@ -347,46 +346,42 @@ desired effect
                                     <tbody>
                                         <tr class="tableheader">
                                             <td></td>
-                                            <td></td>                                            
+                                            <td></td>
+                                            <td><a href="#">Utövare <i class="fa fa-caret-down" aria-hidden="true"></i></a></td>
                                             <td><a href="#">Rubrik<i class="fa fa-caret-up" aria-hidden="true"></i></a></td>
-                                            <td><a href="#">Utövare <i class="fa fa-caret-down" aria-hidden="true"></i></a></td>                                            
                                             <td><a href="#">Konstform</a></td>
                                             <td><a href="#">Datum</a></td>
-                                            
                                         </tr>                                       
                                         <tr>
-                                            <td><input type="checkbox"></td>                                            
+                                            <td><input type="checkbox"></td>
                                             <td class="mailbox-star"><a href="#"><i class="fa fa-star text-yellow" title="Ej läst"></i></a></td>
-                                             <td class="mailbox-subject">
+                                            <td class="mailbox-name"><a href="hanteraansokningar.html">Andreas Josefsson</a></td>
+                                            <td class="mailbox-subject">
                                                 Skolbio förskolan: <b>Mustang</b>
                                             </td>
-                                            <td class="mailbox-name"><a href="hanteraansokningar.html">Andreas Josefsson</a></td>
                                             <td class="mailbox-attachment">Dans</td>      
-                                            <td class="mailbox-date">2017-01-16</td>
-                                            <td></td>   
+                                            <td class="mailbox-date">2017-01-16</td>       
                                               
                                         </tr>
                                         <tr>
                                             <td><input type="checkbox"></td>
                                             <td class="mailbox-star"><a href="#"><i class="fa fa-star-o text-yellow" title="Läst men inte klar"></i></a></td>
+                                            <td class="mailbox-name"><a href="hanteraansokningar.html">Andreas Josefsson</a></td>
                                             <td class="mailbox-subject">
                                                 Skolbio förskolan:<b>Tigrar och tatueringar</b>
-                                            </td>
-                                            <td class="mailbox-name"><a href="hanteraansokningar.html">Andreas Josefsson</a></td>      
-                                            <td class="mailbox-attachment">Teater</td>                                            
+                                            </td>      
+                                            <td class="mailbox-attachment">Teater</td>
                                             <td class="mailbox-date">2017-01-14</td>
-                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td><input type="checkbox"></td>
                                             <td class="mailbox-star"><a href="#"><i class="fa fa-star-o text-yellow" title="Läst men inte klar"></i></a></td>
+                                            <td class="mailbox-name"><a href="read-mail.html">Andreas Josefsson</a></td>
                                             <td class="mailbox-subject">
                                                 Skapa film & rörlig bild
-                                            </td>
-                                            <td class="mailbox-name"><a href="read-mail.html">Andreas Josefsson</a></td>
+                                            </td> 
                                             <td class="mailbox-attachment">Teater</td>
                                             <td class="mailbox-date">2017-01-11</td>
-                                            <td></td>
                                         </tr>
                                         
                                     </tbody>
@@ -399,11 +394,12 @@ desired effect
                         <div class="box-footer no-padding">
                             <div class="mailbox-controls">
                                 <!-- Check all button -->
-                                <button type="button" class="btn btn-default btn-sm checkbox-toggle" title="Markera alla">
+                                <button type="button" class="btn btn-default btn-sm checkbox-toggle">
                                     <i class="fa fa-square-o"></i>
                                 </button>
                                 <div class="btn-group">
-                                      <button type="button" class="btn btn-default btn-sm" title="Neka"><i class="fa fa-times" aria-hidden="true"></i></button>
+                                    <button type="button" class="btn btn-default btn-sm"><i class="fa fa-check" aria-hidden="true"></i></button>
+                                    <button type="button" class="btn btn-default btn-sm"><i class="fa fa-times" aria-hidden="true"></i></button>
 
                                 </div>
                                 <!-- /.btn-group -->
